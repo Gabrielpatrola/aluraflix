@@ -1,10 +1,11 @@
 import React from 'react';
+import PageDefault from '../../../components/PageDefault';
 
 function CadastroVideo() {
   return (
-    <div style={{ background: "#141414" }}>
+    <PageDefault>
       Página de cadastro de video
-    </div>
+    </PageDefault>
   );
 }
 
